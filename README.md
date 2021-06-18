@@ -9,14 +9,14 @@ Package required : Laravel ui for authentication
 First of all, 
  >$git clone  https://github.com/VeshGrg/laravel8-authorization.git
    
-Open the directory in terminal mode an run
+Open the directory in terminal mode and run
  >$composer install
  
  >$cp .env.example .env
  
  >$php artisan key:generate
  
-Create a database:
+Create a database and run
  >$php artisan migrate
 
 For authentication template, use laravel/ui
